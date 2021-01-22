@@ -13,7 +13,7 @@ halfway there. IDEs will highlight you methods with their queries.
 ![img.png](img.png)
 
 You would also need to define what cursor must that DAO use with implemented
-`.fetchall()` and `.mogrify()` methods.
+`.execute()`, `.fetchall()` and `.mogrify()` methods.
 
 ## Usage
 
@@ -27,7 +27,7 @@ from useless_examples.data_access_object.data_access_object import db_connector,
 
 
 def get_cursor():
-    """Return cursor to your db which implements .fetchall() and .mogrify()"""
+    """Return cursor to your db which implements .execute(), .fetchall() and .mogrify()"""
     pass
 
 
