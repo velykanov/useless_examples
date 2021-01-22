@@ -12,7 +12,7 @@ Purposes of usage:
 ```python
 import importlib
 
-from sources_reloader import SourcesReloader
+from useless_examples.sources_reloader.sources_reloader import SourcesReloader
 
 
 class Body(SourcesReloader):
