@@ -4,6 +4,8 @@ import sys
 
 from datetime import datetime
 
+print("HELLO")
+
 
 def merge_files(first_path: str, second_path: str, prune_duplicates: bool = True) -> str:
     with open(first_path) as first_file, open(second_path) as second_file:
